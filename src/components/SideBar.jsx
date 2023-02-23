@@ -7,9 +7,8 @@ export default function SideBar() {
         <img src="logo1.png" alt="" />
 
         <div className="mt-20 bg-[#1A1E1F] rounded-3xl p-3 ">
-          <img src="home.png" alt="" />
-
-          <img src="playlist.png" alt="" className="mb-5" />
+          <img src="Home.png" alt="" className="mb-5"  />
+          <img src="playlist-1.png" alt="" className="mb-5" />
           <img src="radio.png" alt="" className="mb-5" />
           <img src="videos.png" alt="" className="mb-5" />
         </div>
