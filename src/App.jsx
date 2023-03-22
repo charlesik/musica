@@ -4,13 +4,14 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import ChartPage from './pages/ChartPage'
 import PlaylistPage from './pages/PlaylistPage'
+import SongList from './components/SongList'
 
 
 function App() {
 
   return (
     <div>
-    <PlaylistPage/>
+    <HomePage/>
     </div>
   )
 }
