@@ -11,16 +11,16 @@ export default function SongList() {
   console.log(songs);
   const topCharts = songs.map((song, index) => {
     return (
-      <div>
-        <img src={song.cover} alt="" className="w-[153px] h-[153px]" />
+      <div className="h-[153px] w-[153px] min-w-[153px] m-5">
+        <img src={song.cover} alt="" className="w-[153px] h-[153px] rounded-3xl" />
         <p>{song.title}</p>
       </div>
     );
   });
   return (
-    <div>
-      <p>Song List</p>
-      <div className="flex justify-evenly">
+    <div className="">
+      <p>New Releases</p>
+      <div className="bar flex justify-around overflow-x-auto h-[220px]">
         {topCharts}
         
       </div>

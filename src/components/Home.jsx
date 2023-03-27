@@ -5,7 +5,7 @@ import TopBar from './TopBar'
 export default function Home() {
   return (
     
-    <div className='w-full text-white ml-24'>
+    <div className='w-full text-white ml-24 max-w-[92%]'>
         <TopBar/>
         <div className='flex justify-around  w-full'>
         <div className='bg-[#609EAF] h-[373px] w-[686px] rounded-3xl flex text-white'>

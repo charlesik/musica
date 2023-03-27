@@ -4,7 +4,7 @@ import Home from '../components/Home'
 
 export default function HomePage() {
   return (
-    <div className="App bg-[#1D2123]  flex">
+    <div className="App bg-[#1D2123]  flex ">
       <SideBar/>
       <Home/>
       
