@@ -5,7 +5,7 @@ import SideBar from '../components/SideBar'
 
 export default function PlaylistPage() {
   return (
-    <div className=" bg-[#1D2123] flex h-screen ">
+    <div className=" bg-[#1D2123] flex ">
     <div >
       <SideBar/>
       <Playlists/>

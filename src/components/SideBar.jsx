@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SideBar() {
   return (
@@ -7,8 +8,8 @@ export default function SideBar() {
         <img src="logo1.png" alt="" />
 
         <div className="mt-20 bg-[#1A1E1F] rounded-3xl p-3 ">
-          <img src="Home.png" alt="" className="mb-5"  />
-          <img src="playlist-1.png" alt="" className="mb-5" />
+          <Link to='/'><img src="Home.png" alt="" className="mb-5"  /></Link>
+         <Link to='/playlist'><img src="playlist-1.png" alt="" className="mb-5" /></Link>
           <img src="radio.png" alt="" className="mb-5" />
           <img src="videos.png" alt="" className="mb-5" />
         </div>

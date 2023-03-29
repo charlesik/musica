@@ -1,18 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import HomePage from './pages/HomePage'
 import ChartPage from './pages/ChartPage'
 import PlaylistPage from './pages/PlaylistPage'
-import SongList from './components/SongList'
+import { Route, Routes } from 'react-router-dom'
+
 
 
 function App() {
 
   return (
-    <div>
-    <HomePage/>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+      <Route path="/chart/:name" element={<ChartPage/>} />
+      <Route path="/playlist" element={<PlaylistPage/>} />
+    </Routes>
+    
   )
 }
 
